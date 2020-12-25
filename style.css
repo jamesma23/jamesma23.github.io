@@ -1,0 +1,57 @@
+#head {
+  background: rgb(236,80,201);
+  background: linear-gradient(90deg, rgba(236,80,201,1) 0%, rgba(200,212,48,1) 33%, rgba(0,212,255,1) 100%);
+}
+
+h1 {
+  color: white;
+}
+
+#school{
+  padding: 10px;
+  border: 100px;
+  margin-left: 30px;
+  margin-right: 40px;
+  width: 15%;
+}
+
+#description{
+  float: right;
+  width: 100%;
+  color:white;
+  background-color: green;
+}
+
+.column{
+  max-width: 77%;
+}
+
+.row::after {
+  content:"";
+  clear: both;
+  display: table;
+}
+
+p {
+  max-width: 100%;
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+background: {
+
+}
