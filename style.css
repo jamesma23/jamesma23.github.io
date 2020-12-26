@@ -1,3 +1,8 @@
+@keyframes orbit {
+  from {transform: rotate(0deg) translateX(5px) rotate(0deg);}
+  to {transform: rotate(360deg) translateX(5px) rotate(-360deg);}
+}
+
 #copyright {
   color: white;
 }
@@ -75,9 +80,9 @@ iframe {
 }
 
 .language {
-  positon: relative;
+  positon: ansolute;
   margin: 0 30 30;
-  animation: language 10s infinite linear;
+  animation: orbit 5s infinite linear;
 }
 
 
